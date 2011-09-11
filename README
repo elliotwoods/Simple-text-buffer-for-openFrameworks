@@ -1,0 +1,15 @@
+Very simple text input.
+http://github.com/elliotwoods/Simple-text-buffer-for-openFrameworks
+Supports:
+* Range of standard ascii input keys
+* left,right to move cursor
+* delete,backspace
+
+Does not support:
+* mouse select
+* shift select
+* clipboard
+* up,down key navigation
+
+Generally for simple tasks like when you want to save something with a filename (suggest changing the behavious of OF_KEY_RETURN to save)
+
