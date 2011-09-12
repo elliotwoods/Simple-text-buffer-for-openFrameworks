@@ -16,6 +16,9 @@ Generally for simple tasks like when you want to save something with a filename 
 
 There are 2 branches on the github:
 * very simple - not object oriented. Chop and change as you like
+https://github.com/elliotwoods/Simple-text-buffer-for-openFrameworks/tree/VerySimple
 * ofx style - in a seperate class, but still suggest you chop and change as you like.
+https://github.com/elliotwoods/Simple-text-buffer-for-openFrameworks
+
 
 Since i presume most people will be changing the code to their own needs, i'm not suggesting that this is a real ofx extension, but instead some code that you can start with and hack with.
