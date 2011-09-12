@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "textInput.h"
 
 class testApp : public ofBaseApp{
 
@@ -9,20 +10,15 @@ class testApp : public ofBaseApp{
 		void update();
 		void draw();
 
-		void keyPressed  (int key);
-		void keyReleased(int key);
-		void mouseMoved(int x, int y );
-		void mouseDragged(int x, int y, int button);
-		void mousePressed(int x, int y, int button);
-		void mouseReleased(int x, int y, int button);
-		void windowResized(int w, int h);
-		void dragEvent(ofDragInfo dragInfo);
-		void gotMessage(ofMessage msg);
-		
+		//void keyPressed  (int key);
 	
-		void	drawText();
-		void	typeKey(int key);
-		string	text;
-		int		position;
-		int		cursorx, cursory;
+		textInput textBox;
+	
+		/////
+		//for the purpose of this example
+		vector<string> textEntries;
+		void addText(string& s);
+		void drawEntries();
+		//
+		/////
 };

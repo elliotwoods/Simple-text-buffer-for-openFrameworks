@@ -1,5 +1,6 @@
 Very simple text input.
 http://github.com/elliotwoods/Simple-text-buffer-for-openFrameworks
+
 Supports:
 * Range of standard ascii input keys
 * left,right to move cursor
@@ -13,3 +14,8 @@ Does not support:
 
 Generally for simple tasks like when you want to save something with a filename (suggest changing the behavious of OF_KEY_RETURN to save)
 
+There are 2 branches on the github:
+* very simple - not object oriented. Chop and change as you like
+* ofx style - in a seperate class, but still suggest you chop and change as you like.
+
+Since i presume most people will be changing the code to their own needs, i'm not suggesting that this is a real ofx extension, but instead some code that you can start with and hack with.
